@@ -1,5 +1,19 @@
 # Engineering Challenge
 
+## Development
+
+To run the test:
+
+```bash
+clj -X:test
+```
+
+To run the repl:
+
+```bash
+clj -A:dev
+```
+
 ## Getting started
 
 This clojure challenge is made up of 3 questions that reflect the learning you accumulated for the past week. Complete the following instructions:
@@ -44,8 +58,3 @@ Given the invoice defined in **invoice.edn** in this repo, use the thread-last -
 where invoice represents an invoice constructed from the JSON.
 ## Problem 3: Test Driven Development
 Given the function **subtotal** defined in **invoice-item.clj** in this repo, write at least five tests using clojure core **deftest** that demonstrates its correctness. This subtotal function calculates the subtotal of an invoice-item taking a discount-rate into account. Make sure the tests cover as many edge cases as you can!
-
-
-
-
-
